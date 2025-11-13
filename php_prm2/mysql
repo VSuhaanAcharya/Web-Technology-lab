@@ -4,7 +4,9 @@ create database students124;
 use students124;
 create table students124 (id int primary key , name varchar(50) , grade float);
 
-insert into students124 values (1,"Sohan s salian",99);
+insert into students124 values (2,"suhaan",95);
+insert into students124 values (3,"a",79);
+insert into students124 values (4,"b",95);
 
 
-delete from students124 where id=4;
+delete from students124 where id=2;
